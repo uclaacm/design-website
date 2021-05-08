@@ -1,0 +1,31 @@
+{
+  "name": "design-website",
+  "version": "1.0.0",
+  "description": "Portal website for ACM Design at UCLA",
+  "main": "index.js",
+  "scripts": {
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "sass scss:_site/css --watch --no-source-map",
+    "start": "npm-run-all --parallel watch:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uclaacm/design-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uclaacm/design-website/issues"
+  },
+  "homepage": "https://github.com/uclaacm/design-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "markdown-it": "^12.0.6",
+    "markdown-it-attrs": "^4.0.0"
+  }
+}

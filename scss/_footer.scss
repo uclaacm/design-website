@@ -1,0 +1,17 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $orange;
+  display: flex;
+  align-items: center;
+  height: 200px;
+  padding: 0 10rem;
+
+  /* ACM Design logo */
+  .logo {
+    float: right;
+    height: 70px;
+    width: 70px;
+  }
+}

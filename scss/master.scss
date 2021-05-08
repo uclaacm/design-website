@@ -1,0 +1,32 @@
+// globals
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+@font-face {
+  font-family: "Westwood Sans";
+  src: url("../assets/WestwoodSans/versions/v0.4/WestwoodSans-Regular.ttf") format("truetype");
+}
+$font-display: "Poppins", sans-serif;
+$font-header: "Westwood Sans", sans-serif;
+$font-body: "Open Sans", sans-serif;
+$font-code: "Source Code Pro", monospace;
+$orange: #FE823C;
+$blue: #1E6CFF;
+$black: #181818;
+$darkgrey: #535353;
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+}
+
+// import partials
+@import 'footer', 'header', 'layout';
