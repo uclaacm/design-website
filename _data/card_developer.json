@@ -1,0 +1,27 @@
+[
+    {
+        "photo": "brian.png",
+        "name": "Brian Ng",
+        "role": "Developer"
+    },
+    {
+        "photo": "tiffany.png",
+        "name": "Tiffany Lee",
+        "role": "Developer"
+    },
+    {
+        "photo": "jennifer.png",
+        "name": "Jennifer Lin",
+        "role": "Developer"
+    },
+    {
+        "photo": "francis.png",
+        "name": "Francis Feng",
+        "role": "Developer"
+    },
+    {
+        "photo": "andy.png",
+        "name": "Andy Goh",
+        "role": "Developer"
+    }
+]

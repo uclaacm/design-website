@@ -1,0 +1,27 @@
+[
+    {
+        "photo": "annie.png",
+        "name": "Annie Bou",
+        "role": "PM/Designer"
+    },
+    {
+        "photo": "steve.png",
+        "name": "Steve (Kaize) Xie",
+        "role": "Designer"
+    },
+    {
+        "photo": "william.png",
+        "name": "William Hsieh",
+        "role": "Designer"
+    },
+    {
+        "photo": "stephanie.png",
+        "name": "Stephanie Chang",
+        "role": "Designer"
+    },
+    {
+        "photo": "ivy.png",
+        "name": "Ivy Kang",
+        "role": "Designer"
+    }
+]

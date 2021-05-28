@@ -3,14 +3,15 @@
 
 @font-face {
   font-family: "Westwood Sans";
-  src: url("../assets/Westwood_Sans/versions/v0.4/WestwoodSans-Regular.ttf") format("truetype");
+  src: url("../assets/Westwood_Sans/versions/v0.4/WestwoodSans-Regular.ttf")
+    format("truetype");
 }
 $font-display: "Poppins", sans-serif;
 $font-header: "Westwood Sans", sans-serif;
 $font-body: "Open Sans", sans-serif;
 $font-code: "Source Code Pro", monospace;
-$orange: #FE823C;
-$blue: #1E6CFF;
+$orange: #fe823c;
+$blue: #1e6cff;
 $black: #181818;
 $darkgrey: #535353;
 
@@ -29,4 +30,4 @@ body {
 }
 
 // import partials
-@import 'footer', 'header', 'layout';
+@import "footer", "header", "layout", "_02_about";
