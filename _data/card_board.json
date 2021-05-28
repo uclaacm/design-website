@@ -1,0 +1,27 @@
+[
+    {
+        "photo": "crystal.png",
+        "name": "Crystal Huynh",
+        "role": "President"
+    },
+    {
+        "photo": "muthu.png",
+        "name": "Muthu Palaniappan",
+        "role": "Vice President"
+    },
+    {
+        "photo": "chinmaya.png",
+        "name": "Chinmaya Vempati",
+        "role": "Workshop Director/PM"
+    },
+    {
+        "photo": "amy.png",
+        "name": "Amy Seo",
+        "role": "Design Director/PM"
+    },
+    {
+        "photo": "kevin.png",
+        "name": "Kevin Tang",
+        "role": "Dev Director/PM"
+    }
+]
