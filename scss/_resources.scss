@@ -8,10 +8,17 @@
     cursor: pointer;
     font-size: 17px;
     width: 20%;
+    box-sizing: border-box;
+    border-radius: 0;
   }
   
   .tablink:hover {
-    background-color: #777;
+    box-shadow: 0 2px #b6642e;
+    background-color: white;
+  }
+  .tablink:focus{
+    box-shadow: 0 2px #522D14;
+    background-color: white;
   }
   
   /* Style the tab content (and add height:100% for full page content) */
@@ -21,7 +28,7 @@
     justify-content:center;
     align-items:center;
     height: 100%;    
-    padding: 5%;
+    padding: 5% 0%;
   }
   .stuff{
     display:flex;
@@ -29,7 +36,7 @@
     position: relative;
     justify-content: center;
     height: 100%;
-    padding: 3% 10%;
+    padding: 3% 0%;
   }
   .tabbar{
       padding-top: 5%;
