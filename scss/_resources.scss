@@ -1,0 +1,37 @@
+/* Style tab links */
+.tablink {
+    background-color: white;
+    color: #FE8D3C;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    flex-direction: row;
+    display: flex;
+    color: white;
+    justify-content:center;
+    align-items:center;
+    padding: 100px 200px;
+    height: 100%;
+  }
+  .tabbar{
+      padding-top: 100px;
+      width:100%;
+      display: flex;
+      justify-content:center;
+  }
+  .container-list{
+      display:flex;
+      flex-direction:column
+  }
