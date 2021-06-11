@@ -2,13 +2,12 @@
 .tablink {
     background-color: white;
     color: #FE8D3C;
-    float: left;
+    float:left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
     font-size: 17px;
-    width: 33%;
+    width: 20%;
   }
   
   .tablink:hover {
@@ -17,21 +16,46 @@
   
   /* Style the tab content (and add height:100% for full page content) */
   .tabcontent {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
-    color: white;
     justify-content:center;
     align-items:center;
-    padding: 100px 200px;
+    height: 100%;    
+    padding: 5%;
+  }
+  .stuff{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
     height: 100%;
+    padding: 3% 10%;
   }
   .tabbar{
-      padding-top: 100px;
-      width:100%;
+      padding-top: 5%;
+      width:auto;
+      margin:auto;
+      position:relative;
       display: flex;
       justify-content:center;
   }
   .container-list{
+      padding-left: 50px;
       display:flex;
       flex-direction:column
+  }
+  h2{
+    margin-bottom: 0.1em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+  }
+  p{
+    margin-top:0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom:1em;
+  }
+  ul{
+    margin:0;
   }

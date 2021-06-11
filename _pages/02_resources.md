@@ -4,48 +4,6 @@ title: Resources
 permalink: "/resources/"
 ---
 
-<!-- <style>
-/* Style tab links */
-.tablink {
-  background-color: white;
-  color: #FE8D3C;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 33%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.asdf {
-  flex-direction: row;
-  display: flex;
-  color: white;
-  justify-content:center;
-  align-items:center;
-  padding: 100px 200px;
-  height: 100%;
-}
-.tabbar{
-    padding-top: 100px;
-    width:100%;
-    display: flex;
-    justify-content:center;
-}
-.container-list{
-    display:flex;
-    flex-direction:column
-}
-</style> -->
-
-
-
 <div>
 <img src="/assets/banners/resources_banner.jpg" style="height: 60vh; width: 100%; object-fit: cover;"/>
 </div>
@@ -57,15 +15,29 @@ permalink: "/resources/"
 </div>
 
 <div id="UX" class="tabcontent">
-<img width="313" height="210" background="url(http://goo.gl/vyAs27)">
-<div class="container-list">
-    <h1>Paper and Pen</h1>
-    <h3>Overview of common concepts that come up in UX</h3>
-    <ul>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-    </ul>
+<div class="stuff">
+  <img width="313" height="210" background="url(http://goo.gl/vyAs27)">
+  <div class="container-list">
+      <h2>Paper and Pen</h2>
+      <p> Overview of common concepts that come up in UX </p>
+      <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      </ul>
+  </div>
+</div>
+<div class="stuff">
+  <img width="313" height="210" background="url(http://goo.gl/vyAs27)">
+  <div class="container-list">
+      <h2>Paper and Pen</h2>
+      <p> Overview of common concepts that come up in UX </p>
+      <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      </ul>
+  </div>
 </div>
 </div>
 
