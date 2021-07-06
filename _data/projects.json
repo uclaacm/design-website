@@ -1,0 +1,38 @@
+[	
+	{
+		"title": "ACM Design Styleguide",
+		"filename": "styleguide",
+		"image": "designlaptop.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus metus ipsum, finibus sed eros vitae, pharetra cursus dolor. Quisque rhoncus ultricies vulputate. Integer ut tortor id justo efficitur blandit. In turpis lacus, viverra sit amet sapien accumsan, faucibus iaculis sem. Nam sollicitudin dignissim nisi, a faucibus velit commodo eu. Suspendisse ut blandit eros. Ut ut ipsum cursus, vehicula lorem quis, posuere arcu. Praesent vestibulum feugiat feugiat. Phasellus sit amet risus purus. Nam elementum, sapien at dapibus luctus, ex velit eleifend nulla, vitae venenatis tortor leo tristique massa."
+	},
+	{
+		"title": "Westwood CSS / Styleguide 3.2",
+		"filename": "westwoodcss",
+		"image": "westwoodcss.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus metus ipsum, finibus sed eros vitae, pharetra cursus dolor. Quisque rhoncus ultricies vulputate. Integer ut tortor id justo efficitur blandit. In turpis lacus, viverra sit amet sapien accumsan, faucibus iaculis sem. Nam sollicitudin dignissim nisi, a faucibus velit commodo eu. Suspendisse ut blandit eros. Ut ut ipsum cursus, vehicula lorem quis, posuere arcu. Praesent vestibulum feugiat feugiat. Phasellus sit amet risus purus. Nam elementum, sapien at dapibus luctus, ex velit eleifend nulla, vitae venenatis tortor leo tristique massa."
+	},
+	{
+		"title": "ACM Design Portal Site",
+		"filename": "designportal",
+		"image": "acmdesignportal.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus metus ipsum, finibus sed eros vitae, pharetra cursus dolor. Quisque rhoncus ultricies vulputate. Integer ut tortor id justo efficitur blandit. In turpis lacus, viverra sit amet sapien accumsan, faucibus iaculis sem. Nam sollicitudin dignissim nisi, a faucibus velit commodo eu. Suspendisse ut blandit eros. Ut ut ipsum cursus, vehicula lorem quis, posuere arcu. Praesent vestibulum feugiat feugiat. Phasellus sit amet risus purus. Nam elementum, sapien at dapibus luctus, ex velit eleifend nulla, vitae venenatis tortor leo tristique massa."
+	},
+	{
+		"title": "Branding 3.3",
+		"filename": "branding",
+		"image": "branding.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus metus ipsum, finibus sed eros vitae, pharetra cursus dolor. Quisque rhoncus ultricies vulputate. Integer ut tortor id justo efficitur blandit. In turpis lacus, viverra sit amet sapien accumsan, faucibus iaculis sem. Nam sollicitudin dignissim nisi, a faucibus velit commodo eu. Suspendisse ut blandit eros. Ut ut ipsum cursus, vehicula lorem quis, posuere arcu. Praesent vestibulum feugiat feugiat. Phasellus sit amet risus purus. Nam elementum, sapien at dapibus luctus, ex velit eleifend nulla, vitae venenatis tortor leo tristique massa."
+	},
+	{
+		"title": "ACM Impact Blog Series",
+		"filename": "acmimpact",
+		"image": "acmimpact.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus metus ipsum, finibus sed eros vitae, pharetra cursus dolor. Quisque rhoncus ultricies vulputate. Integer ut tortor id justo efficitur blandit. In turpis lacus, viverra sit amet sapien accumsan, faucibus iaculis sem. Nam sollicitudin dignissim nisi, a faucibus velit commodo eu. Suspendisse ut blandit eros. Ut ut ipsum cursus, vehicula lorem quis, posuere arcu. Praesent vestibulum feugiat feugiat. Phasellus sit amet risus purus. Nam elementum, sapien at dapibus luctus, ex velit eleifend nulla, vitae venenatis tortor leo tristique massa."
+	},
+	{
+		"title": "Westwood Sans",
+		"filename": "westwoodsans",
+		"image": "westwoodsans.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus metus ipsum, finibus sed eros vitae, pharetra cursus dolor. Quisque rhoncus ultricies vulputate. Integer ut tortor id justo efficitur blandit. In turpis lacus, viverra sit amet sapien accumsan, faucibus iaculis sem. Nam sollicitudin dignissim nisi, a faucibus velit commodo eu. Suspendisse ut blandit eros. Ut ut ipsum cursus, vehicula lorem quis, posuere arcu. Praesent vestibulum feugiat feugiat. Phasellus sit amet risus purus. Nam elementum, sapien at dapibus luctus, ex velit eleifend nulla, vitae venenatis tortor leo tristique massa."
+	}
+]

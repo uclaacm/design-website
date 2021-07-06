@@ -1,0 +1,68 @@
+[
+	{
+		"title": "UXLA 1",
+		"filename": "uxla1",
+		"image": "event.png",
+		"month": "Feb",
+		"day": "02",
+		"time": "6:00 - 7:00 PM PST",
+		"linkname": "zooooom",
+		"link": "zoom.com",
+		"description": "Come learn about the basics of UX/UI design with the first event of our workshop series!"
+	},
+	{
+		"title": "UXLA 2",
+		"filename": "uxla2",
+		"image": "event.png",
+		"month": "Feb",
+		"day": "02",
+		"time": "6:00 - 7:00 PM PST",
+		"linkname": "zooooom",
+		"link": "zoom.com",
+		"description": "Come learn about the basics of UX/UI design with the first event of our workshop series!"
+	},
+	{
+		"title": "UXLA 3",
+		"filename": "uxla3",
+		"image": "event.png",
+		"month": "Feb",
+		"day": "02",
+		"time": "6:00 - 7:00 PM PST",
+		"linkname": "zooooom",
+		"link": "zoom.com",
+		"description": "Come learn about the basics of UX/UI design with the first event of our workshop series!"
+	},
+	{
+		"title": "UXLA 4",
+		"filename": "uxla4",
+		"image": "event.png",
+		"month": "Feb",
+		"day": "02",
+		"time": "6:00 - 7:00 PM PST",
+		"linkname": "zooooom",
+		"link": "zoom.com",
+		"description": "Come learn about the basics of UX/UI design with the first event of our workshop series!"
+	},
+	{
+		"title": "UXLA 5",
+		"filename": "uxla5",
+		"image": "event.png",
+		"month": "Feb",
+		"day": "02",
+		"time": "6:00 - 7:00 PM PST",
+		"linkname": "zooooom",
+		"link": "zoom.com",
+		"description": "Come learn about the basics of UX/UI design with the first event of our workshop series!"
+	},
+	{
+		"title": "UXLA 6",
+		"filename": "uxla6",
+		"image": "event.png",
+		"month": "Feb",
+		"day": "02",
+		"time": "6:00 - 7:00 PM PST",
+		"linkname": "zooooom",
+		"link": "zoom.com",
+		"description": "Come learn about the basics of UX/UI design with the first event of our workshop series!"
+	}
+]
