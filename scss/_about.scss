@@ -1,0 +1,26 @@
+.about-main{
+    margin-left: 220px;
+    margin-right: 220px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+    #form-follows{
+        padding: 0 160px;
+    }
+
+    .about-us{
+        padding: 35px 220px 0;
+
+        .werd{
+            font-weight: bold;
+        }
+        #orange{
+            color: $orange;
+        }
+    }
+
+    #us{
+        text-align: center;
+        padding-top:90px;
+    }
+}
