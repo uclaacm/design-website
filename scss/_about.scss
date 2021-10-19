@@ -4,7 +4,56 @@
     padding-top: 50px;
 
     #form-follows{
-        padding: 0 160px;
+        display: grid;
+        grid-template-columns: [first] 250px [line2] 250px [line3] 350px [end];
+        grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+        place-items: center;
+        place-content: center;
+        font-weight: 600;
+        font-size:50px;
+        font-family: 'Poppins';
+
+        #text1{
+            grid-column-start: first;
+            grid-column-end: line2;
+            grid-row-start: row1-start;
+            grid-row-end: row1-end;
+            color: $orange;
+        }
+
+        #img1{
+            padding-top: 42px;
+            padding-left: 20px;
+            grid-column-start: first;
+            grid-column-end: line2;
+            grid-row-start: row1-end;
+            grid-row-end: last-line;
+        }
+
+        #text2{
+            grid-column-start: line2;
+            grid-column-end: line3;
+            grid-row-start: row1-end;
+            grid-row-end: third-line;
+            color: #333333;
+        }
+
+        #img2{
+            grid-column-start: line3;
+            grid-column-end: end;
+            grid-row-start: row1-start;
+            grid-row-end: third-line;
+            padding-bottom: 20px;
+            padding-left: 15px;
+        }
+
+        #text3{
+            grid-column-start: line3;
+            grid-column-end: end;
+            grid-row-start: third-line;
+            grid-row-end: last-line;
+            color: $orange;
+        }
     }
 
     .about-us{

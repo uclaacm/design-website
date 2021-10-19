@@ -5,7 +5,13 @@ permalink: "/about/"
 ---
 
 <div class="about-main">
-    <img src="/assets/logos/form.png" id ="form-follows">
+    <div id="form-follows">
+        <span id="text1">Form</span>
+        <img src ="/assets/logos/ipad.png" id="img1">
+        <span id="text2">Follows</span>
+        <img src ="/assets/logos/laptop.png" id="img2">
+        <span id="text3">Function</span>
+    </div>
     <div>
         <p class = "about-us"><span class = "werd">ACM</span> <span class="werd" id="orange">Design</span> is the premier club on campus for learning graphic design and user experience. Lorem ipsum something something ACM Design started as something origin story is probably like a line or two. <br><br>
 Things we do include projects and stuff such as this website and the styleguide haha find it in projects or something something ok bye weeords</p>
