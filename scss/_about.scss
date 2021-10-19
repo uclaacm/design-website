@@ -1,6 +1,5 @@
 .about-main{
-    margin-left: 220px;
-    margin-right: 220px;
+    margin: 0 220px;
     padding-bottom: 100px;
     padding-top: 50px;
 
@@ -22,5 +21,88 @@
     #us{
         text-align: center;
         padding-top:90px;
+    }
+
+    h1{
+        color: #333333;
+    }
+
+    h3{
+        margin-top: 70px;
+        font-size: 30px;
+        padding-left: 40px;
+        color: #333333;
+    }
+
+    #title{
+        margin-top: 40px;
+    }
+
+    .headshots{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .headshot-board{
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin:0 7.5px;
+        }
+
+        .headshot-n{
+            width: 184px;
+            height: 220px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin:0 7.5px;
+        }
+    }
+
+    #unfilled-row{
+        justify-content: left;
+        padding-left: 47px;
+    }
+
+    .cappies{
+        margin-bottom: 55px;
+
+        .headshot-caps{
+            display: flex;
+            flex-direction: row;
+            margin-left: 30px;
+            font-family: 'Poppins';
+            margin-top: 15px;
+            font-weight: 600;
+
+            #_caps{
+                width:184px;
+                padding-left: 15px;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    #caps{
+        font-weight:lighter;
+        margin-top: 0;
+        font-style: italic;
+        font-size: smaller;
+    }
+
+    #alumnis{
+        display:flex;
+        flex-direction: row;
+        padding-left: 40px;
+    }
+
+    .alumns{
+        background-color:#E5E5E5;
+        padding: 5px 0;
+        border-radius: 10px;
+        width:235px;
+        text-align: center;
+        color:black;
+        font-family: 'Poppins';
+        margin-right: 15px;
     }
 }
