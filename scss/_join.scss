@@ -71,3 +71,15 @@ h2{
 	margin-top: -10px;
 	transform: translate(-50%, -100%);
 }
+
+details summary { 
+	cursor: pointer;
+}
+
+details summary > * {
+	display: inline;
+}
+
+h4 {
+	color: #FE8D3C;
+}

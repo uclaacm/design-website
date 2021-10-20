@@ -19,6 +19,26 @@ Intro text over here Lorem ipsum dolor sit amet, consectetur adipiscing elit. Se
 </ul>
 <div>
 <h3>Frequently Asked Questions </h3>
+<details>
+	<summary>
+		<h4>Example question goes here</h4>
+	</summary>
+	<p>Example response goes here</p>
+</details>
+
+<details>
+	<summary>
+		<h4>Example question goes here</h4>
+	</summary>
+	<p>Example response goes here</p>
+</details>
+
+<details>
+	<summary>
+		<h4>Example question goes here</h4>
+	</summary>
+	<p>Example response goes here</p>
+</details>
 
 
 </div>
