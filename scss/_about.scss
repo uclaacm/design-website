@@ -56,8 +56,26 @@
         }
     }
 
+    #flexbox1{
+        display: flex;
+
+        #quote1{
+            max-height: 34px;
+            padding-left: 220px;
+        }
+
+        #quote2{
+            max-height: 34px;
+            align-self: flex-end;
+            float:left;
+            padding-right: 220px;
+            flex-wrap: wrap;
+        }
+    }
+
     .about-us{
-        padding: 35px 220px 0;
+        flex-wrap: wrap;
+        width: 600px;
 
         .werd{
             font-weight: bold;

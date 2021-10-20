@@ -12,9 +12,11 @@ permalink: "/about/"
         <img src ="/assets/logos/laptop.png" id="img2">
         <span id="text3">Function</span>
     </div>
-    <div>
-        <p class = "about-us"><span class = "werd">ACM</span> <span class="werd" id="orange">Design</span> is the premier club on campus for learning graphic design and user experience. Lorem ipsum something something ACM Design started as something origin story is probably like a line or two. <br><br>
+    <div id="flexbox1">
+        <img src="/assets/logos/quote.png" id="quote1">
+        <p class = "about-us" id="aboutPar"><span class = "werd">ACM</span> <span class="werd" id="orange">Design</span> is the premier club on campus for learning graphic design and user experience. Lorem ipsum something something ACM Design started as something origin story is probably like a line or two. <br><br>
 Things we do include projects and stuff such as this website and the styleguide haha find it in projects or something something ok bye weeords</p>
+        <img src="/assets/logos/quote.png" id="quote2">
     </div>
     <h1 id="us">Who we are</h1>
     <div>
