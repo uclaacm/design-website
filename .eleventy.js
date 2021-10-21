@@ -1,54 +1,47 @@
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy('assets');
+  
+  // For site name, later
+  // eleventyConfig.addPassthroughCopy("CNAME");
 
-    eleventyConfig.addPassthroughCopy('css');
-    eleventyConfig.addPassthroughCopy('assets');
-    eleventyConfig.addPassthroughCopy("CNAME");
+  eleventyConfig.addCollection('pages', collection => {
+    return collection.getFilteredByGlob('_pages/*.md');
+  });
 
-    eleventyConfig.addWatchTarget("./css/*");
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true,
+    root: [
+      '_includes',
+      '.'
+    ]
+  });
 
-    //Add collection for committees
-    eleventyConfig.addCollection('committees', collection => {
-        return collection.getFilteredByGlob('_committees/*.md');
-    });
-    eleventyConfig.addCollection('pages', collection => {
-        return collection.getFilteredByGlob('_pages/*.md');
-    });
+  let md_it = require("markdown-it");
+  var md_attr = require("markdown-it-attrs");
+  let options = {
+    html: true, 
+    breaks: true,
+    linkify: true,
+  };
 
-    eleventyConfig.setLiquidOptions({
-        dynamicPartials: true,
-        root: [
-            '_includes',
-            '.'
-        ]
-    });
+  let md_lib = md_it(options).use(md_attr).disable('code');
+  eleventyConfig.setLibrary("md", md_lib);
 
-    let md_it = require("markdown-it");
-    var md_attr = require("markdown-it-attrs");
-    let options = {
-        html:true, 
-        breaks: true,
-        linkify: true,
-    };
+  eleventyConfig.addFilter('jsonify', function (variable) {
+    return JSON.stringify(variable);
+  });
 
-    let md_lib = md_it(options).use(md_attr).disable('code');
-    eleventyConfig.setLibrary("md", md_lib);
-
-    eleventyConfig.addFilter('jsonify', function (variable) {
-        return JSON.stringify(variable);
-      });
-
-    return {
-        passthroughFileCopy: true,
-        pathPrefix: "/",
-        dir: {
-            input: "./",
-            output: "_site",
-            includes: "_includes",
-            layouts: "_layouts"
-        },
-        htmlTemplateEngine: "liquid",
-        markdownTemplateEngine: "liquid",
-        templateFormats: ["md", "html", "njk"]
-    }
-
+  return {
+    passthroughFileCopy: true,
+    pathPrefix: "/",
+    dir: {
+      input: "./",
+      output: "_site",
+      includes: "_includes",
+      layouts: "_layouts"
+    },
+    htmlTemplateEngine: "liquid",
+    markdownTemplateEngine: "liquid",
+    templateFormats: ["md", "html", "njk"]
+  }
 }
