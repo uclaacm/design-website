@@ -43,11 +43,9 @@ css_links: ['/css/master.css']
       {% if title %}{{ title }}{% endif %}
     </div> -->
   {% endcomment %}
-  <div class="content">
-    <main>
+  <main>
       {{ content | safe }}
-    </main>
-  </div>
+  </main>
   {% include "footer.html" %}
 </body>
 
