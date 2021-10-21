@@ -10,7 +10,9 @@ $font-header: "Westwood Sans", sans-serif;
 $font-body: "Open Sans", sans-serif;
 $font-code: "Source Code Pro", monospace;
 $orange: #FE823C;
+$brown: #522D14;
 $blue: #1E6CFF;
+$dark-blue: #1955B3;
 $black: #181818;
 $darkgrey: #535353;
 
@@ -38,6 +40,26 @@ main {
 	grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12";
 }
 
+ul, li, ol {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+}
+
+a, button {
+  color: $black;
+}
+
+a:hover, button:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 // import partials
 @import 'footer', 'header', 'layout', 'about', 'resources', 'join';

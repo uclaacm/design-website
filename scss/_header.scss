@@ -1,3 +1,44 @@
-.navbar {
-  padding: 0.5rem 10rem;
+nav {
+  padding: 1rem 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(16, 17, 43, 0.1);
+
+  .nav-logo {
+    height: 48px;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .nav-item {
+      font-family: $font-header;
+      color: $orange;
+      margin-left: 24px;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: $brown;
+      transition: color 0.3s;
+    }
+
+    #join {
+      color: white;
+      background-color: $dark-blue;
+      padding: 0.25em 1em;
+      border-radius: 2em;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: background-color 0.3s;
+    }
+
+    #join:hover {
+      background-color:rgb(16, 17, 43);
+      transition: background-color 0.3s;
+    }
+  }
 }
