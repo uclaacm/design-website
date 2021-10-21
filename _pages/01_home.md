@@ -5,5 +5,5 @@ permalink: "/"
 ---
 
 <div>
-Content
+hi
 </div>
