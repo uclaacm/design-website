@@ -1,10 +1,14 @@
 nav {
+  position: sticky;
+  top: 0;
   padding: 1rem 10rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
   box-shadow: 0px 4px 4px rgba(16, 17, 43, 0.1);
+  z-index: 10;
 
   .nav-logo {
     height: 48px;
@@ -19,12 +23,12 @@ nav {
       font-family: $font-header;
       color: $orange;
       margin-left: 24px;
-      transition: color 0.3s;
+      transition: color 0.2s;
     }
 
     a:hover {
       color: $brown;
-      transition: color 0.3s;
+      transition: color 0.2s;
     }
 
     #join {
