@@ -105,6 +105,33 @@
         margin-top: 40px;
     }
 
+    .headshots1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .headshot-board{
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin:0 7.5px;
+        }
+
+        ._caps{
+                font-weight:600;
+                font-family: 'Poppins';
+                padding-left: 15px;
+        }
+
+        ._caps2{
+                font-weight:lighter;
+                margin-top: 0;
+                font-style: italic;
+                font-size: smaller;
+                font-family: 'Poppins';
+                padding-left: 15px;
+        }
+    }
+
     .headshots{
         display: flex;
         flex-direction: row;
@@ -116,44 +143,25 @@
             margin:0 7.5px;
         }
 
-        .headshot-n{
-            width: 184px;
-            height: 220px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            margin:0 7.5px;
+        ._caps{
+            font-weight:600;
+            font-family: 'Poppins';
+            padding-left: 15px;
+        }
+
+        ._caps2{
+            font-weight:lighter;
+            margin-top: 0;
+            font-style: italic;
+            font-size: smaller;
+            font-family: 'Poppins';
+            padding-left: 15px;
         }
     }
 
     #unfilled-row{
         justify-content: left;
         padding-left: 47px;
-    }
-
-    .cappies{
-        margin-bottom: 55px;
-
-        .headshot-caps{
-            display: flex;
-            flex-direction: row;
-            margin-left: 30px;
-            font-family: 'Poppins';
-            margin-top: 15px;
-            font-weight: 600;
-
-            #_caps{
-                width:184px;
-                padding-left: 15px;
-                margin-left: 15px;
-            }
-        }
-    }
-
-    #caps{
-        font-weight:lighter;
-        margin-top: 0;
-        font-style: italic;
-        font-size: smaller;
     }
 
     #alumnis{
