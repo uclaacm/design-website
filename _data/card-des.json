@@ -1,0 +1,37 @@
+[
+    {
+        "photo": "annie.png",
+        "name": "Annie Bou",
+        "role": "PM/Designer"
+    },
+    {
+        "photo": "colleen.png",
+        "name": "Colleen Li",
+        "role": "Designer"
+    },
+    {
+        "photo": "brian.png",
+        "name": "Brian Ng",
+        "role": "Designer"
+    },
+    {
+        "photo": "steph.png",
+        "name": "Stephanie Chang",
+        "role": "Designer"
+    },
+    {
+        "photo": "kathleen.png",
+        "name": "Kathleen Yang",
+        "role": "Designer"
+    },
+    {
+        "photo": "hannah-chu.png",
+        "name": "Hannah Chu",
+        "role": "Designer"
+    },
+    {
+        "photo": "ivy.png",
+        "name": "Ivy Kang",
+        "role": "Designer"
+    }
+]

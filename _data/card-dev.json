@@ -1,0 +1,52 @@
+[
+    {
+        "photo": "andy.png",
+        "name": "Andy Goh",
+        "role": "PM/Developer"
+    },
+    {
+        "photo": "michael-shi.png",
+        "name": "Michael Shi",
+        "role": "PM/Developer"
+    },
+    {
+        "photo": "isabelle.png",
+        "name": "Isabelle Goralsky",
+        "role": "Developer"
+    },
+    {
+        "photo": "megan.png",
+        "name": "Megan Schmid",
+        "role": "Developer"
+    },
+    {
+        "photo": "will.png",
+        "name": "William Hsieh",
+        "role": "Developer"
+    },
+    {
+        "photo": "angela.png",
+        "name": "Angela Zhang",
+        "role": "Developer"
+    },
+    {
+        "photo": "francis-feng.png",
+        "name": "Francis Feng",
+        "role": "Developer"
+    },
+    {
+        "photo": "daniel-dai.png",
+        "name": "Daniel Dai",
+        "role": "Developer"
+    },
+    {
+        "photo": "tiffany.png",
+        "name": "Tiffany Lee",
+        "role": "Developer"
+    },
+    {
+        "photo": "solomon.png",
+        "name": "Solomon Lo",
+        "role": "Developer"
+    }
+]
