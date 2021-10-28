@@ -9,6 +9,8 @@ h2{
     margin-left: 0em;
     margin-right: 0em;
     margin-bottom:1em;
+	font-family: $font-display;
+	font-weight: bold;
   }
   ul{
     margin:0;
@@ -72,6 +74,7 @@ h2{
 	transform: translate(-50%, -100%);
 }
 
+// Change cursor icon: https://css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion/
 details summary { 
 	cursor: pointer;
 }
@@ -81,5 +84,24 @@ details summary > * {
 }
 
 h4 {
-	color: #FE8D3C;
+	font-family: $font-display;
+	color: orange;
+}
+
+.regular-padding {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 0%;
+	padding-bottom: 5%; 
+	border: 3px solid green;
+  }
+
+.desc {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%; 
+	font-family: $font-display;
+	font-style: italic;
+	font-weight: bold;
 }
