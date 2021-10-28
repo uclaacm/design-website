@@ -7,7 +7,7 @@
     outline: none;
     cursor: pointer;
     font-size: 17px;
-    width: 20%;
+    width: 15%;
     box-sizing: border-box;
     border-radius: 0;
   }
@@ -56,13 +56,34 @@
     margin-top: 0em;
     margin-right: 0em;
     margin-left: 0em;
+    font-display: $font-display;
   }
   p{
     margin-top:0em;
     margin-left: 0em;
     margin-right: 0em;
-    margin-bottom:1em;
+    margin-bottom: 1em;
+    font-display: $font-display;
   }
   ul{
-    margin:0;
+    margin: 0;
+    // list-style-image: url(/assets/logos/design-logo.svg);
+  }
+  ul li:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-image: url(/assets/logos/design-logo.svg);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  li{
+    list-style-type: none;
+    position: relative;
+    padding-left: 24px;
+    font-display: $font-header;
   }
