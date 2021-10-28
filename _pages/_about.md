@@ -14,8 +14,8 @@ permalink: "/about/"
     </div>
     <div id="flexbox1">
         <img src="/assets/logos/quote.png" id="quote1">
-        <p class = "about-us" id="aboutPar"><span class = "werd">ACM</span> <span class="werd" id="orange">Design</span> is the premier club on campus for learning graphic design and user experience. Lorem ipsum something something ACM Design started as something origin story is probably like a line or two. <br><br>
-Things we do include projects and stuff such as this website and the styleguide haha find it in projects or something something ok bye weeords</p>
+        <p class = "about-us" id="aboutPar"><span class = "werd">ACM</span> <span class="werd" id="orange">Design</span> is the premier club on campus for learning graphic design and user experience. ACM Design was founded to develop guidelines, normalize branding, and produce design elements for UCLA ACM. <br><br>
+Things we do include projects such as this website and the styleguide, as well as workshops for the general UCLA community!</p>
         <img src="/assets/logos/quote.png" id="quote2">
     </div>
     <h1 id="us">Who we are</h1>
@@ -33,9 +33,9 @@ Things we do include projects and stuff such as this website and the styleguide 
     </div>
     <div>
         <h3>Designers</h3>
-        <div class="headshots">
+        <div class="headshots1">
             {% for person in card-des %}
-                <div>
+                <div class = "headshot-card">
                     <img src="../assets/headshots/{{person.photo}}" class="headshot-board">
                     <span class="_caps">{{person.name}}</span>
                     <span class="_caps2">{{person.role}}</span>
@@ -45,7 +45,7 @@ Things we do include projects and stuff such as this website and the styleguide 
     </div>
     <div>
         <h3>Developers</h3>
-        <div class="headshots">
+        <div class="headshots1">
             {% for person in card-dev %}
                 <div>
                     <img src="../assets/headshots/{{person.photo}}" class="headshot-board">

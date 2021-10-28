@@ -99,6 +99,10 @@
         font-size: 30px;
         padding-left: 40px;
         color: #333333;
+
+        @media (max-width: 1520px) {
+            padding-left: 30px;
+        }
     }
 
     #title{
@@ -109,17 +113,33 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap; 
 
         .headshot-board{
             border-radius: 10px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             margin:0 7.5px;
+            width:200px;
+
+            @media (max-width: 1520px) {
+                width:150px;
+            }
+            @media (max-width: 1268px) {
+                width:125px;
+            }
+            /*adjust at 1168px*/
+            /*adjust at 800px*/
+            /*adjust at 450 0r 500px*/
         }
 
         ._caps{
                 font-weight:600;
                 font-family: 'Poppins';
                 padding-left: 15px;
+
+                @media (max-width: 1520px) {
+                    font-size:smaller;
+                }
         }
 
         ._caps2{
@@ -130,38 +150,6 @@
                 font-family: 'Poppins';
                 padding-left: 15px;
         }
-    }
-
-    .headshots{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-        .headshot-board{
-            border-radius: 10px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            margin:0 7.5px;
-        }
-
-        ._caps{
-            font-weight:600;
-            font-family: 'Poppins';
-            padding-left: 15px;
-        }
-
-        ._caps2{
-            font-weight:lighter;
-            margin-top: 0;
-            font-style: italic;
-            font-size: smaller;
-            font-family: 'Poppins';
-            padding-left: 15px;
-        }
-    }
-
-    #unfilled-row{
-        justify-content: left;
-        padding-left: 47px;
     }
 
     #alumnis{

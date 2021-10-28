@@ -12,16 +12,16 @@
     {
         "photo": "chinmaya.png",
         "name": "Chinmaya Vempati",
-        "role": "Workshop Director/PM"
+        "role": "Workshop Director"
     },
     {
         "photo": "amy-seo.png",
         "name": "Amy Seo",
-        "role": "Design Director/PM"
+        "role": "Design Director"
     },
     {
         "photo": "kevin-tang.png",
         "name": "Kevin Tang",
-        "role": "Dev Director/PM"
+        "role": "Dev Director"
     }
 ]
