@@ -23,23 +23,23 @@ Intro text over here Lorem ipsum dolor sit amet, consectetur adipiscing elit. Se
 <h3>Frequently Asked Questions </h3>
 <details>
 	<summary>
-		<h4>Example question goes here</h4>
+		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
 	</summary>
-	<p>Example response goes here</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat massa sed nisi porta, non congue nulla luctus. Proin tempus nisi id neque facilisis fringilla ac eget mi. Quisque at massa a felis vulputate faucibus vitae vel ex. Duis tristique commodo nibh a mattis. Maecenas euismod dapibus tempus. Proin porttitor lacinia imperdiet. Maecenas varius dui malesuada lorem egestas eleifend. Phasellus ipsum mi, laoreet vel consequat quis, suscipit eu tortor. Integer eget sem non nibh vulputate tristique sodales egestas ipsum.</p>
 </details>
 
 <details>
 	<summary>
-		<h4>Example question goes here</h4>
+		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
 	</summary>
-	<p>Example response goes here</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat massa sed nisi porta, non congue nulla luctus. Proin tempus nisi id neque facilisis fringilla ac eget mi. Quisque at massa a felis vulputate faucibus vitae vel ex. Duis tristique commodo nibh a mattis. Maecenas euismod dapibus tempus. Proin porttitor lacinia imperdiet. Maecenas varius dui malesuada lorem egestas eleifend. Phasellus ipsum mi, laoreet vel consequat quis, suscipit eu tortor. Integer eget sem non nibh vulputate tristique sodales egestas ipsum.</p>
 </details>
 
 <details>
 	<summary>
-		<h4>Example question goes here</h4>
+		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
 	</summary>
-	<p>Example response goes here</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat massa sed nisi porta, non congue nulla luctus. Proin tempus nisi id neque facilisis fringilla ac eget mi. Quisque at massa a felis vulputate faucibus vitae vel ex. Duis tristique commodo nibh a mattis. Maecenas euismod dapibus tempus. Proin porttitor lacinia imperdiet. Maecenas varius dui malesuada lorem egestas eleifend. Phasellus ipsum mi, laoreet vel consequat quis, suscipit eu tortor. Integer eget sem non nibh vulputate tristique sodales egestas ipsum.</p>
 </details>
 
 
