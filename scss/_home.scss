@@ -1,6 +1,8 @@
 #bigpic{
-    min-height: 100vh;
-    width: 100vh;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-image: url("../assets/logos/home-back.png");
 }
 
