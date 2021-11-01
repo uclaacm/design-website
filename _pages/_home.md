@@ -5,8 +5,8 @@ permalink: "/"
 ---
 
 <div id="home-page">
-    <div>
+    <div id="home-links">
         <a href="{{ site.baseurl }}/about">about us</a> | <a href="{{ site.baseurl }}/projects">projects</a> | <a href="{{ site.baseurl }}/events">events</a> | <a href="{{ site.baseurl }}/resources">resources</a>
     </div>
-    <div>design logo here</div>
+    <img src="../assets/logos/design-logo-wordmark.svg" id="wordlogo">
 </div>
