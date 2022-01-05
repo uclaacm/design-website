@@ -1,0 +1,68 @@
+/* Style tab links */
+.tablink {
+    background-color: white;
+    color: #FE8D3C;
+    float:left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 0;
+  }
+  
+  .tablink:hover {
+    box-shadow: 0 2px #b6642e;
+    background-color: white;
+  }
+  .tablink:focus{
+    box-shadow: 0 2px #522D14;
+    background-color: white;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100%;    
+    padding: 5% 0%;
+  }
+  .stuff{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    padding: 3% 0%;
+  }
+  .tabbar{
+      padding-top: 5%;
+      width:auto;
+      margin:auto;
+      position:relative;
+      display: flex;
+      justify-content:center;
+  }
+  .container-list{
+      padding-left: 50px;
+      display:flex;
+      flex-direction:column
+  }
+  h2{
+    margin-bottom: 0.1em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+  }
+  p{
+    margin-top:0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom:1em;
+  }
+  ul{
+    margin:0;
+  }

@@ -21,7 +21,7 @@ css_links: ['/css/master.css']
 
   <!-- Westwood CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uclaacm/WestwoodCSS@latest/dist/main.min.css">
-  
+
   {% for ref in css_links %}
   <link rel="stylesheet" href="{{ ref | prepend: site.baseurl}}">
   {% endfor %}
@@ -43,13 +43,12 @@ css_links: ['/css/master.css']
       {% if title %}{{ title }}{% endif %}
     </div> -->
   {% endcomment %}
-  <div class="content">
-    <main>
-      {{ content | safe }}
-    </main>
+  <main>
+    {{ content | safe }}
+  </main>
   {% comment %}
-    <!-- footer current is fixed in place, will add back when fixed -->
-    <!-- {% include "footer.html" %} -->
+  <!-- footer current is fixed in place, will add back when fixed -->
+  <!-- {% include "footer.html" %} -->
   {% endcomment %}
   </div>
 </body>
