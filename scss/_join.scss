@@ -105,3 +105,13 @@ h4 {
 	font-style: italic;
 	font-weight: bold;
 }
+
+.custom-banner-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: block;
+}
